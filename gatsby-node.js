@@ -7,7 +7,7 @@ const {data} = await graphql(`query {
   tours:allContentfulTour {
     edges {
       node {
-        slug
+        slug 
       }
     }
   }
